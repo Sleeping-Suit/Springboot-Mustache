@@ -34,7 +34,7 @@ public class FrontController {		// FrontController-서버실행시에 열림
 		
 		List<Board> boards = new ArrayList<>();
 		boards.add(new Board(1, "제목1"));
-		boards.add(new Board(2, "제목2"));
+		boards.add(new Board(2, "제목3"));
 		
 		model.addAttribute("boards", boards);
 		
